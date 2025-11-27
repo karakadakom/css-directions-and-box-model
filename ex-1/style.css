@@ -1,1 +1,20 @@
-/* Start coding here */
+body {
+  box-sizing: border-box;
+  margin: 0%;
+}
+h1 {
+  color: #0e293d;
+  background-color: #92aabe;
+  padding: 20px;
+  margin: 0%;
+}
+.travel-card {
+  border: solid #2c464e;
+  margin: 50px 50px;
+  width: 40%;
+  height: 50%;
+  background-color: #e5e9ec;
+  padding: 20px;
+}
+
+

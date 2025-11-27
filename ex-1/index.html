@@ -1,19 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sarabun&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>CSS Direction and Box Model - Ex 1</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sarabun&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css" />
-  <title>CSS Direction and Box Model - Ex 1</title>
-</head>
+      body {
+        margin: 0px;
+      }
 
-<body>
-  <!-- Start coding here -->
-</body>
+      .head-box {
+        background-color: rgb(115, 139, 167);
+        width: 100vw;
+        height: 100px;
+        display: flex;
+        align-items: center;
+      }
 
+      .head-text {
+        margin-left: 30px;
+        font-size: 1.8rem;
+        font-weight: 600;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(29, 49, 70);
+      }
+
+      .content-box {
+        background-color: rgba(115, 139, 167, 0.397) ;
+        border: 3px solid rgba(29, 49, 70, 0.76); 
+        padding: 20px;
+        margin: 50px;
+        width: 700px;
+      }
+
+      .content-title {
+        color: rgb(29, 49, 70);
+        font-size: 1.rem;
+        font-weight:500;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      .content-description {
+        color: rgb(29, 49, 70);
+        font-size: 1.rem;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      img {
+        width: 450px;
+        height: 150px;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="head-box">
+      <h1 class="head-text">Travel Blog</h1>
+    </div>
+    <div class="Contain-area">
+      <div class="content-box">
+        <h2 class="content-title">คาเฟ่เชียงใหม่น่าเที่ยว 10 อันดับ 2040</h2>
+        <img src="image.jpeg" alt="รูปสถานที่เที่ยว">
+        <p class="content-description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit
+          amet accumsan tortor. Sed id magna vel justo efficitur hendrerit.
+          Curabitur et libero vel arcu gravida efficitur a sed nulla. Vestibulum
+          ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+          curae; Integer et lectus non nisi bibendum fermentum.
+        </p>
+      </div>
+
+      <div class="content-box">
+        <h2 class="content-title">คาเฟ่เชียงใหม่น่าเที่ยว 10 อันดับ 2040</h2>
+        <img src="image.jpeg" alt="รูปสถานที่เที่ยว">
+        <p class="content-description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit
+          amet accumsan tortor. Sed id magna vel justo efficitur hendrerit.
+          Curabitur et libero vel arcu gravida efficitur a sed nulla. Vestibulum
+          ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+          curae; Integer et lectus non nisi bibendum fermentum.
+        </p>
+      </div>
+    </div>
+  </body>
 </html>

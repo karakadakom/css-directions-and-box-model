@@ -1,1 +1,15 @@
-/* Start coding here */
+body {
+  box-sizing: border-box;
+}
+.card {
+  border: solid 16px black;
+  outline: solid 16px lightgrey;
+  background-color: khaki;
+}
+span {
+  display: block;
+  text-align: center;
+  font-size: 72px;
+  padding: 30px;
+  border: solid 24px crimson;
+}
